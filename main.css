@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* background: rgb(1, 1, 56); */
+    background: rgb(56, 90, 128);
+    height: 100vh;
+}
+
+nav {
+    height: 13vh;
+    display: grid;
+    padding: 2rem 0 0;
+    grid-template-columns: 2fr 2fr 1fr;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.541);
+}
+
+
+
+.navbar-logo {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: url("MiracleWorldPersonalUse-ZVYez.otf"); */
+    /* font-family: url("Z:/Documents/Drone Delivers/MiracleWorldPersonalUse-ZVYez.otf"); */
+    /* font-family: 'BillonaireMedium'; */
+}
+
+.navbar-logo p {
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navbar-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-links li {
+    padding-left: 1.5rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.navbar-buttons {
+    display: flex;
+
+}
+
+.navbar-buttons a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login {
+    background: blue;
+    text-align: center;
+    border-radius: 3px;
+    height: 6vh;
+    width: 6rem;
+    margin: 0 auto;
+    padding: 0.3rem;
+}
+
+.register {
+    background: green;
+    text-align: center;
+    border-radius: 3px;
+    height: 6vh;
+    width: 8rem;
+    margin: 0 auto;
+    padding: 0.35rem;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    padding: 2rem 0;
+}
+
+.lerft {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5rem 2rem;
+}
+
+.lerft h1 {
+    font-size: 4rem;
+    color: lightblue;
+    padding-bottom: 2rem;
+    /* font-family: 'Cormorant SC', serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lerft h3 {
+    font-size: 1.9rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+    font-family: cursive;
+}
+
+.lerft p {
+    font-size: 1.6rem;
+}
+
+.lerft p a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    /* border: 1px solid lightblue; */
+    /* border-radius: 5px; */
+    padding: 3px;
+}
+
+.lerft p a:hover {
+    /* text-decoration: underline; */
+    color: blue;
+}
+
+.rright img {
+    width: 80%;
+    height: auto;
+    margin: 10rem auto;
+    border-radius: 10px;
+}
+
+/* black jack
+freeline
+hillenberg
+privus */
